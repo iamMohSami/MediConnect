@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .navbaro {
+  min-width: 100vw;
+  min-height: 13vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbox {
+  height: 5rem;
+  width: 22rem;
+  background-color: green;
+} */
+
+.custom-navbar {
+  min-height: 5rem;
+}
+
+#logoimg {
+  width: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.custom-navbar-links {
+  margin-left: 20px;
+}

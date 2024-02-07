@@ -1,0 +1,31 @@
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .form-container {
+    width: 100%;
+  }
+
+  .form-container form {
+    padding: 0 20px;
+  }
+
+  .toggle-container {
+    width: 100%;
+  }
+
+  .toggle-panel {
+    padding: 0 15px;
+  }
+
+  .toggle-left,
+  .toggle-right {
+    transform: translateX(0);
+  }
+
+  .container.active .toggle-left,
+  .container.active .toggle-right {
+    transform: translateX(0);
+  }
+}

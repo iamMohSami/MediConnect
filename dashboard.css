@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+
+.left {
+  width: 25vw;
+  height: 100vh;
+  /* background-color: red; */
+  border-right: 0.1rem solid grey;
+}
+
+.right {
+  width: 75vw;
+  height: 100vh;
+  /* background-color: green; */
+}
+
+.top {
+  width: 100%;
+  height: 30%;
+  /* background-color: green; */
+  border-bottom: 0.1rem solid grey;
+  gap: 10px;
+}
+
+.bottom {
+  width: 100%;
+  height: 70%;
+  /* background-color: rgb(128, 126, 0); */
+}
+
+.box1 {
+  height: 40%;
+  width: 80%;
+  border: 1px solid black;
+  display: flex;
+}
